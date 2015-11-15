@@ -1,0 +1,124 @@
+		/*Pluglet a = new Pluglet();
+		confirm("oui ou non ?");
+		error("erreeeeur");
+		out.println(getDialog());
+		prompt("message", "initialText", "title");
+		question("message", "title");
+		warning("message", "title");*/
+
+/*-----------------------------------*/
+
+		// Get main diagram
+		//out.println("Getting Activity from composant...");
+		
+		
+		//Diagram mainDiagram = UMLModeler.getUMLDiagramHelper().getMainDiagram(objetSelectionne.getNamespace());
+		//Diagram  aDiagram = UMLModeler.getUMLDiagramHelper().getDiagrams(objetSelectionne.getNamespace()).get(0);
+		//UMLModeler.getUMLDiagramHelper().layoutNodes(mainDiagram.getChildren(), "DEFAULT");
+		//List  diagrams = UMLModeler.getUMLHelper().
+		//inform("Diagram:"+(Diagram)aDiagram);
+		//aDiagram.get
+		
+		//UMLModeler.getUMLUIHelper().
+		
+		//composant.getPackagedElements();
+		
+		/*
+		Activity activityFromComposant = (Activity)elementSelectionee;
+		
+		//out.println("composant.getPackagedElements.size() : " +composant.getPackagedElements().size());
+		
+		if (composant.getPackagedElements().size()>0){
+			for (Iterator iter = composant.getPackagedElements().iterator(); iter.hasNext();) {
+				activityFromComposant = (Activity)iter.next();
+				out.println(activityFromComposant.toString());        	
+	        }
+			out.println("activityFromComposant : "+activityFromComposant.getName());
+			
+			ActivityNode noeudActivite = null;
+			
+			for (Iterator iter2 = activityFromComposant.getNodes().iterator(); iter2.hasNext();) {
+				noeudActivite = (ActivityNode) iter2.next();
+				out.println("noeudActivite tostring:" +noeudActivite.toString());  
+				out.println("noeudActivite name:" +noeudActivite.getName()); 
+				out.println("noeudActivite name:" +noeudActivite.getQualifiedName());
+				//((StructuredActivityNode)noeudActivite).setV
+				inform("noeudActivite name:" +noeudActivite.getName()+"\n"+
+						"noeudActivite.getKeywords().get(0):"+noeudActivite.getKeywords().get(0)+
+						"isSetVisibility:"+((StructuredActivityNode)noeudActivite).isSetVisibility()+
+						"getVisibility:"+((StructuredActivityNode)noeudActivite).getVisibility());
+				
+				
+				//if (noeudActivite instanceof StructuredActivityNode){
+					//((StructuredActivityNode)noeudActivite).createNode("Nested Action", UMLPackage.eINSTANCE.getInitialNode());
+					//out.println("Création du Diagramme d'algorithme imbriqué");
+					
+					//Diagram diagramImbrique = addActivityDiagram(((ActivityGroup) noeudActivite).getInActivity(), "Diagramme d'algorithme imbriqué");
+					//out.println("Fin Création diagramImbrique");
+					//out.println("Création du noeud début imbriqué");
+					//addNodeDebut(((ActivityGroup) noeudActivite).getInActivity(), "Début");
+					//((ActivityGroup)noeudActivite).
+					//ActivityGroup a=null;
+				//}
+				//if (noeudActivite instanceof DecisionNode){
+				//	out.println("decision getOwnedComments().get(0).getBody :"+ ((DecisionNode)noeudActivite).getOwnedComments().get(0).getBody());
+				//}
+					
+	        }
+			
+			/*List diagramsfromActivite = UMLModeler.getUMLDiagramHelper().getDiagrams(activityFromComposant);	
+			
+			out.println("diagramsfromActivite.size() :" + diagramsfromActivite.size());
+			
+			Diagram mainDiagram=null;
+			
+			if (diagramsfromActivite.size()>0){
+				for (Iterator iter2 = diagramsfromActivite.iterator(); iter2.hasNext();) {
+					mainDiagram = (Diagram) iter2.next();
+					out.println("Diagram tostring:" +mainDiagram.toString());  
+					out.println("Diagram name:" +mainDiagram.getName()); 
+		        }
+				
+				Node nodeFromDiagram = null;
+				
+				List childrenFromDiagram = mainDiagram.getChildren();
+				
+				out.println("mainDiagram.getChildren().siez()"+mainDiagram.getChildren().size());
+				
+				for (Iterator iter3 = childrenFromDiagram.iterator(); iter3.hasNext();) {
+					nodeFromDiagram = (Node) iter3.next();
+					out.println("Node toString :" +nodeFromDiagram.toString());
+					out.println("Type :" +nodeFromDiagram.getType());
+					out.println("Diagram.name :" +nodeFromDiagram.getDiagram().getName());
+		        }
+			}
+			
+			
+		}
+		
+		/**/
+
+/*------------------------------------------------*/
+
+//inform("getNode Début"+SuperControlFlow);								 
+		//inform("getContainedNode with Eclass InitialNode"+(activity1 instanceof StructuredActivityNode ?
+		//													((StructuredActivityNode)activity1).getContainedNode("Début", true,UMLPackage.eINSTANCE.getInitialNode()).toString():
+		//													((Activity)activity1).getNode("Début", true,UMLPackage.eINSTANCE.getInitialNode(), false).toString()));
+
+/*------------------------------------------------*/
+
+
+				//out.println("Taille de la pileJetons :"+pileJetons.size());
+				//out.println("peek        pileJetons :"+pileJetons.peek());
+				//out.println("lastElement pileJetons :"+pileJetons.lastElement());
+				
+				// Traitement de la doc de début:
+				//alors => dépiler les doc et documenter l'element selectionne et mettre docdeb traité à true
+
+
+
+
+
+
+
+

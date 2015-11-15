@@ -1,0 +1,118 @@
+Ces lignes doc iront direct dans la documentation de l'élément selectionné
+C'est très utile puisque ça va permettre de documenter un programme selectionné avant d'attaquer la modélisation de ces activités
+Ou seulement de traduire du Cobol en français et documenter une action opaque.
+Faire: Traitement d'initialisation
+	Cette doc sert à vérifier la non uniformité des indentations, et l'utilisation des mots clés sans :
+	Le traitement d'initialisation de programme, 
+il appel les sous-traitements d'ouvertures des fichiers
+		Faire la récupération de la date et heure system
+			Si une erreur survient un abend est remonté
+	l'affichage de la banière de début est effectué aussi
+	Faire: Récupérer date et heure System
+		Faire: Alimenter la primitive de MGDATR03
+			Mettre OP-06 dans NOM-PRIMITIVE
+		Fin-Faire:
+		Faire: Appeler le module MGDATR03
+			Appeler le module MGDATR03 en utilisant Nom-Primitive
+		Fin-Faire:
+		Si: RETURN-CODE # ZERO
+		Cas: Oui
+			Faire: Sortie en Abend 1000
+				Arreter le programme en appelant MCCDINAB
+				Afficher Code et libellé erreur
+			Fin-Faire:
+			Fin-Anormale:
+		Fin-Si:
+	Fin-Faire:
+	Faire: Ouverture de fichier
+	Fin-Faire:
+	Faire: Affichage de la banière de début
+	Fin-Faire:
+Fin-Faire:
+Faire: Traitement principal
+	Faire: Traitement A
+		Traitement A sert à vérifier l'imbrications des Activités
+		Faire: Traitement B
+			Faire: Traitement C
+				Faire: Traitement D
+				Fin-Faire:
+				Faire: Traitement E
+				Fin-Faire:
+			Fin-Faire:
+		Fin-Faire:
+	Fin-Faire:
+	Faire: Traitement 1
+		Traitement 1 sert à vérifier l'imbrications des noeuds de controle
+		Si: Condition 1
+		Documentation de la condition 1
+		Cas: Oui1
+			Faire: Traitement Oui1
+			Fin-Faire:
+			Si: Condition 11
+			Cas: Oui11
+				Si: Condition 111
+				Cas: Oui111
+					Si: Condition 1111
+					Cas: Oui1111
+						Faire: Traitement Oui1111
+						Fin-Faire:
+					Fin-Si:
+				Fin-Si:
+			Cas: Non11
+				Faire: Traitement Non11
+				Fin-Faire:
+			Cas: Parfois11
+				Faire: Traitement Parfois11
+				Fin-Faire:
+			Cas: JeNeSaisPas11
+				Faire: Traitement JeNeSaisPas11
+			    Fin-Faire:
+			Cas: Rarement11
+				Faire: Traitement Rarement11
+				Fin-Faire:
+			Fin-Si:
+		Cas: Non1
+			Faire: Traitement Non1
+		    Fin-Faire:
+		Cas: Parfois1
+			Faire: Traitement Parfois1
+		    Fin-Faire:
+		Fin-Si:
+	Fin-Faire:
+Fin-Faire:
+Faire: Traitement de fin
+	Faire: Traitement *
+		La doc de l'activité de vérification des commentaires et des lignes vides
+		Une ligne mise en commentaire est en dessous, vous la verrez pas :p
+		//Cette ligne est mise en commentaire, elle ne sera pas interpretée.
+		Les commentaires multi-lignes ne sont pas implémentés pour le moment.
+		Les lignes vides sont neutres, elles sont permises pour aérer l'algorithme
+		Si la ligne vide est dans un bloc de doc alors elle sera insérée
+		Sinon elle est négligée.
+		Une ligne vide est en dessous
+		
+		Fin de la doc.
+		
+	Fin-Faire:
+	
+	Faire: Traitement #
+		Ce paragraphe sert à vérifier les appels des comportements
+		ça permet de factoriser la création des activités, et par suite faciliter leurs modifications
+		Faire: Traitement mutualisé SA ##:
+			Faire: Traitement mutualisé interne
+				Un traitement qui sera appelé plusieurs fois
+				par exemple une lecture de fichier.
+				La définition de traitement mutualisé doit précéder toute invocation
+				pour le moment, cet aspect est implémenté seulement pour les activités structurées mais pas les actions opaques
+				les workaround que tu as c'est : copier la doc manuellement => prob pour modif
+				convertir les actions en activité structurée => ça à l'air pas mal
+				Vous pouvez choisir d'utiliser cette fonctionnalité ou non à vos risque et péril 8-)
+			Fin-Faire:
+		Fin-Faire:
+		Faire: Traitement mutualisé OA ##:
+			cette action sera pratiquement une SA
+		Fin-Faire:
+		Faire: Traitement mutualisé OA #:
+		Faire Traitement mutualisé SA #:
+	Fin-Faire:
+Fin-Faire:
