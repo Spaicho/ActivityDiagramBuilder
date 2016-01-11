@@ -72,6 +72,20 @@ import com.ibm.xtools.umlnotation.UMLDiagramKind;
 
 public class PlugletRetroSpec extends Pluglet {
 
+	/* 
+	 * FIXME
+	 * 
+	 * La doc de début est inversée.
+	 * Si une activité ne contient aucune doc, y mettre le nom de l'activité
+	 * Régler les problème d'encodage, "OR" mal écrite
+	 * détecter l'encodage ? ANSI UTF-8
+	 * gérer les Control flow, mettre le libellé dans guard onglet général
+	 * Problème tradution TO => Dans
+	 * Régler le problème des libellÃés des noeud de controle qui disparaissent.
+	 * Régler le problème des noms des activités qui ne s'affichent pas complètement
+	 * Ajouter la gestion des activités appelables.
+	 */
+
 	public void plugletmain(String[] args) {
 		out.println("Pluglet \"RetroDoc\".");
 		
