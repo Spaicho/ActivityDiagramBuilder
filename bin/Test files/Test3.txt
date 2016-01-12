@@ -1,4 +1,0 @@
-Faire: Traitement X
-	Faire: Traitement imbriqué
-	Fin-Faire:
-Fin-Faire:
