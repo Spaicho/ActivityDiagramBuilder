@@ -1,4 +1,4 @@
-package ma.cgi.gtc.spaich;
+package ma.cgi.gtc.spaich.exception;
 
 public class RetroSpecPlugletException extends RuntimeException {
 

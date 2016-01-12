@@ -1,22 +1,22 @@
-package ma.cgi.gtc.spaich;
+package ma.cgi.gtc.spaich.exception;
 
-public class ParsingException extends RuntimeException {
+public class ExtractionJetonException extends RuntimeException {
 
-	public ParsingException() {
+	public ExtractionJetonException() {
 		// TODO Module de remplacement de constructeur auto-généré
 	}
 
-	public ParsingException(String arg0) {
+	public ExtractionJetonException(String arg0) {
 		super(arg0);
 		// TODO Module de remplacement de constructeur auto-généré
 	}
 
-	public ParsingException(Throwable arg0) {
+	public ExtractionJetonException(Throwable arg0) {
 		super(arg0);
 		// TODO Module de remplacement de constructeur auto-généré
 	}
 
-	public ParsingException(String arg0, Throwable arg1) {
+	public ExtractionJetonException(String arg0, Throwable arg1) {
 		super(arg0, arg1);
 		// TODO Module de remplacement de constructeur auto-généré
 	}

@@ -1,22 +1,22 @@
-package ma.cgi.gtc.spaich;
+package ma.cgi.gtc.spaich.exception;
 
-public class SelectionComposantException extends RuntimeException {
+public class ParsingException extends RuntimeException {
 
-	public SelectionComposantException() {
+	public ParsingException() {
 		// TODO Module de remplacement de constructeur auto-généré
 	}
 
-	public SelectionComposantException(String arg0) {
+	public ParsingException(String arg0) {
 		super(arg0);
 		// TODO Module de remplacement de constructeur auto-généré
 	}
 
-	public SelectionComposantException(Throwable arg0) {
+	public ParsingException(Throwable arg0) {
 		super(arg0);
 		// TODO Module de remplacement de constructeur auto-généré
 	}
 
-	public SelectionComposantException(String arg0, Throwable arg1) {
+	public ParsingException(String arg0, Throwable arg1) {
 		super(arg0, arg1);
 		// TODO Module de remplacement de constructeur auto-généré
 	}
