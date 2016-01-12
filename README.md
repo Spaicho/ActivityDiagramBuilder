@@ -6,33 +6,33 @@ For example, business process analysts may have business process descriptions in
 
 It may take a long time and significant effort for business analysts to go through the business process descriptions and create activity diagrams for each business process.
 
-This Eclipse Plugin make use of Rational Modeling Platform API to build Activity Diagram from Pseudo code for IBM Rational Software Modeler (RSM).
+This Eclipse Pluglet "Plugin for minor workbench extension" make use of Rational Modeling Platform API to build Activity Diagram from Pseudo code for IBM Rational Software Modeler (RSM).
 
 ![Pseudo code to Activity diagram](/img/adb1.png?raw=true "Optional Title")
 
-# How to
+# How to use :
 
-1 
+1 Import as existing project.
 
 ![Pseudo code to Activity diagram](/img/adb2.png?raw=true "Optional Title")
 
-2
+2 Expand the project.
 
 ![Pseudo code to Activity diagram](/img/adb3.png?raw=true "Optional Title")
 
-3
+3 Get into the component to which the diagram will be added. 
 
 ![Pseudo code to Activity diagram](/img/adb4.png?raw=true "Optional Title")
 
-4
+4 Run the project as a Pluglet.
 
 ![Pseudo code to Activity diagram](/img/adb6.png?raw=true "Optional Title")
 
-5
+5 Choose the file containing Pseudo-code.
 
 ![Pseudo code to Activity diagram](/img/adb7.png?raw=true "Optional Title")
 
-6
+6 Click Ok and then it's done !
 
 ![Pseudo code to Activity diagram](/img/adb8.png?raw=true "Optional Title")
 
