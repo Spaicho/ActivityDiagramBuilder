@@ -23,9 +23,17 @@ This Eclipse Plugin make use of Rational Modeling Platform API to build Activity
 3
 
 ![Pseudo code to Activity diagram](/img/adb4.png?raw=true "Optional Title")
-![Pseudo code to Activity diagram](/img/adb5.png?raw=true "Optional Title")
+
+4
+
 ![Pseudo code to Activity diagram](/img/adb6.png?raw=true "Optional Title")
+
+5
+
 ![Pseudo code to Activity diagram](/img/adb7.png?raw=true "Optional Title")
+
+6
+
 ![Pseudo code to Activity diagram](/img/adb8.png?raw=true "Optional Title")
 
 
