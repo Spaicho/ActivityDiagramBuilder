@@ -10,29 +10,29 @@ This Eclipse Pluglet "Plugin for minor workbench extension" make use of Rational
 
 ![Pseudo code to Activity diagram](/img/adb1.png?raw=true "Optional Title")
 
-# How to use :
+## How to use :
 
-1 Import as existing project.
+1- Import as existing project.
 
 ![Pseudo code to Activity diagram](/img/adb2.png?raw=true "Optional Title")
 
-2 Expand the project.
+2- Expand the project.
 
 ![Pseudo code to Activity diagram](/img/adb3.png?raw=true "Optional Title")
 
-3 Get into the component to which the diagram will be added. 
+3- Get into the component to which the diagram will be added. 
 
 ![Pseudo code to Activity diagram](/img/adb4.png?raw=true "Optional Title")
 
-4 Run the project as a Pluglet.
+4- Run the project as a Pluglet.
 
 ![Pseudo code to Activity diagram](/img/adb6.png?raw=true "Optional Title")
 
-5 Choose the file containing Pseudo-code.
+5- Choose the file containing Pseudo-code.
 
 ![Pseudo code to Activity diagram](/img/adb7.png?raw=true "Optional Title")
 
-6 Click Ok and then it's done !
+6- Click Ok and then it's done !
 
 ![Pseudo code to Activity diagram](/img/adb8.png?raw=true "Optional Title")
 
