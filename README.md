@@ -1,12 +1,11 @@
 # ActivityDiagramBuilder
 
-In many situations, a project has information assets described in text format, and those assets need to be represented in UML diagrams.
+This Eclipse Pluglet make use of "Rational Modeling Platform API" to build Activity Diagram from Pseudo code for IBM Rational Software Modeler (RSM).
 
-For example, business process analysts may have business process descriptions in text that need to be converted to UML activity diagrams before delivery to the application developers.
+This is a solution for many situations, where a project has information assets described in text format, and it takes a long time to convert it manually into UML diagrams.
 
-It may take a long time and significant effort for business analysts to go through the business process descriptions and create activity diagrams for each business process.
 
-This Eclipse Pluglet "Plugin for minor workbench extension" make use of Rational Modeling Platform API to build Activity Diagram from Pseudo code for IBM Rational Software Modeler (RSM).
+
 
 The test file PseudoCodeSyntax.txt explain the minimal syntax rules accepted by the pluglet. 
 
