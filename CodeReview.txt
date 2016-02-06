@@ -1,0 +1,36 @@
+remove extra spaces at the end of lines
+packages are not sorted alphabetically
+no wildcard import
+group import logically
+
+93  use override annotation
+93  interface for mocking up
+93  unit testing
+95  useless comment
+98  initialize immedialtely after declaration
+100 why use print and logging
+107 method run , private ? 
+109 localize and externalize, literals, messages
+109 use existng exception
+113 coding by intention and avoid comment
+113 mixing english and french
+116 useless comment
+119 useless comment
+120 useless comment
+122 remove extra line
+124 remove extra line
+no more extra lines will be alerted
+139 indent 
+139 more specific naming : SelectedElements instead of elements
+143 indent
+143 break 
+144 indent
+145 indent
+146 indent
+147 indent
+No more indent will be alerted
+162 separate resposibilities, Pluglet class should not contain IO operation nor parsing
+162 create a new class for handling File IO
+163 more accurate name for in
+195 put registry key handling in a new class
+
